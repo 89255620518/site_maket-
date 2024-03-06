@@ -1,0 +1,83 @@
+#  Основы css
+* Каскадные таблицы стилей - формальный язык описания внешнего вида документа
+
+### Cинтаксис
+
+* Селектор
+
+    p{
+        color: green;
+    }
+
+* Селектор в одну строчку
+
+    {
+        св-во1:знач1; 
+        св-во2:знач2;
+    }
+
+<!-- /*Внешний вид*/ -->
+
+## Способы объявления CSS
+
+* Inline - стили
+* CSS в разделе head
+* Подключение внешнего файла
+
+## Основные св-ва CSS
+
+### Единицы измерения в CSS
+
+1. Относительные:
+    * px - пиксель
+    * %  - процент
+    * em - высота тек шрифта
+2. Абсолютные:
+    * cm - сантиметр
+    * mm - миллиметр
+    * in - дюйм
+    * pt - пункт
+
+### background - фон элемента
+* background-color: #ff0;   - цвет фона
+* background-image: url(img/foto.jpg);  - фоновое изображение
+* background-position: top; (bottom | left | right);  - фоновое позиция
+* background-repeat: repeat-x; (repeat-y | no-repeat); - фоновое повторение
+* background-size: cover; (contain | 100%) - фоновый размер
+
+#### Объединенное значение:
+
+* background #ff0 url(img/foto/jpg) top repeat-x;
+
+### border - рамка
+1. border-color: red; (#f00 | RGB(255, 0, 0));
+2. border-style: solid; (dotted | dashed | groove | ridge | solid | double | inset | outset);
+3. border-width: 2px;  - толщина
+
+    h1 {
+        border: 1px solid black;
+    }
+
+### font - шрифт текста
+1. font-family: "Times New Roman", serif, Verdana; - разновидность шрифта
+2. serif - шрифты с засечками
+3. sans-serif  - рубленные шрифты, без засечек
+4. cursive - курсивные
+5. fantasy - декоративные
+6. monospace - моноширинные
+
+    * font-style: italic; (oblique | normal | bold);
+    * font-variant: small-caps; 
+    * font-weight: bold; (bolder | lighter | 100 | 200); - знач толщины
+    * font-size: 20px; (small | medium | large)
+
+### list-style - вид маркера
+1. list-style-type: circle; (disc | square | armenian | decimal)
+2. list-style-position: inside | outside;
+3. list-style-image: url(img/list.png);
+
+### Редактирование текста
+* text-align: center; (justify | left | right);
+* text-decoration: none; (line-through | overline | underline | none)
+* text-transform: capitalize; (lowercase | uppercase)
+

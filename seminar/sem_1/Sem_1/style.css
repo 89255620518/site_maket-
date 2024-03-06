@@ -1,0 +1,90 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+    background: linear-gradient(134deg, rgb(237, 204, 205), rgb(146, 39, 39) 71%);
+}
+
+.links {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 40px;
+    /** анимация */
+    transition: color 0.3s ease-in-out;
+}
+
+/** меняет цвет при наведении */
+.links:hover {
+    color: crimson;
+}
+
+.headers {
+    color: #fa1515;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.headers_2 {
+    color: rgb(28, 9, 103);
+    font-style: italic;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+/** приоритет, если не определен класс */
+h1 {
+    color: rgb(13, 181, 203);
+}
+
+.paraghraf {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #3809b0
+}
+
+.imgs {
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+
+    transform: scale(1);
+    box-shadow: none;
+    transition: box-shadow 600ms, transform 600ms;
+}
+
+/** Выделение с тенью */
+.imgs:hover {
+    transform: scale(1.05);
+    box-shadow: 15px 15px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 600ms, transform 600ms;;
+}
+
+.polya {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.knopki {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 3px solid #a60808;
+    border-radius: 10px;
+    color: wheat;
+    background-color: black;
+    /** отступ */
+    margin-top: 20px;
+}
+
+

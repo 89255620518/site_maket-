@@ -1,0 +1,449 @@
+
+/* Шрифт */
+* {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;  
+}
+
+/* .center {
+    padding-left: calc(50% - 360px);
+    padding-right: calc(50% - 360px);
+} */
+
+/** фон страницы */
+body {
+    display: flex;
+    flex-direction: column;
+    background: var(--020-a-18, #020A18);
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+a {
+    color: var(-ffffff, #FFF);
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: white;
+    color: #FFFFFF;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 1200px;
+    height: 65px;
+    
+}
+
+.top__content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    height: 650px;
+    margin-top: 20px;
+}
+
+.top__info {
+    width: 40%;
+}
+
+.top__buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.txt_h1 {
+    color: var(--ffffff, #FFF);
+    font-size: 55px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 130%; /* 71.5px */
+    width: 482px;
+}
+
+.txt__h2 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: var(--3-a-68-b-8, #3A68B8);
+}
+
+.txt__p2 {
+    width: 482px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+    font-style: italic;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+.top_buttons {
+    width: 30%;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+
+
+.top__logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 1180px;
+    height: 100px;
+    margin-top: 20px;
+    gap: 50px;
+    margin-left: 10px;
+}
+
+.sem_home {
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+}
+
+.tree {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    height: 600px;
+    margin: 90px;
+}
+
+.tree_img {
+    width: 550px;
+    height: 300px;
+}
+
+.tree_text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    width: 444px;
+    height: 314px;
+    margin-top: 90px;
+}
+
+.tree_h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFF;
+}
+
+.tree_h2 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+button {
+    top: 379px;
+    left: 662px;
+    border-radius: 5px;
+    gap: 10px;
+    background: #3A68B8;
+}
+
+.but_1 {
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+}
+
+/** таблицы */
+
+.cards {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    width: 1020px;
+    height: 1200px;
+    gap: 30px;
+    margin: 125px;
+}
+
+.cards_small {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 316px;
+    height: 380px;
+    background: #132035;
+}
+
+.cards_imgs {
+    width: 98px;
+    height: 103px;
+    top: 30px;
+    left: 132px;
+}
+
+.cards_txts {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cards_large {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 670px;
+    height: 790px;
+    border-radius: 10px;
+    background: #132035;
+    /* начинается со "2ой" строчки "1ой" колонкиб заканчивается "4й" строчкой и "3й" колонкой */
+    grid-area: 2 / 1 / 4 / 3;
+    
+}
+
+.cards_txtl {
+    width: 600px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cards_pl {
+    width: 600px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.about_sayt {
+    width: 1100px;
+    height: 500px;
+    margin: 85px;
+    margin-top: -40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.one_slayd {
+    width: 530px;
+    height: 490px;
+    margin: 6px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.second_slayd {
+    width: 530px;
+    height: 490px;
+    margin: 6px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.one_h1 {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.one_parag {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.footer {
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 50px;
+    margin-top: -30px;
+}
+
+.footer_info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: flex-start;
+    width: 360px;
+    height: 180px;
+}
+
+.info_h1 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.info_p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: lightgray;
+}
+
+.about_info {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 360px;
+    height: 180px;
+}
+
+.about_info_h1 {
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.about_info_p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: gray;
+}
+
+.about_contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 360px;
+    height: 180px;
+}
+
+.contact_h1 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+/** Адаптив */
+
+
+
+
+
+
+
